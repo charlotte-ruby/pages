@@ -1,0 +1,14 @@
+one:
+  id: 1
+  name: first-page
+  sluggable_id: 1
+  sequence: 1
+  sluggable_type: Page
+  
+  
+two:
+  id: 2
+  name: second-page
+  sluggable_id: 2
+  sequence: 1
+  sluggable_type: Page 

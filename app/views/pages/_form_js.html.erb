@@ -1,0 +1,13 @@
+<script type="text/javascript" charset="utf-8">
+var dirtyUpdate = false;
+
+$("#page_content").keyup(function(){
+  if (!dirtyUpdate){
+    dirtyUpdate = true;
+    textAreaVal = $(this).val();
+    $("#preview").html(textAreaVal);
+    dirtyUpdate=false;
+  }
+});
+  
+</script>
